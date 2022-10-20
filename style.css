@@ -1,0 +1,231 @@
+/* 
+### Primary
+
+- Dark Violet: hsl(256, 26%, 20%)
+- Grayish Blue: hsl(216, 30%, 68%)
+
+### Neutral
+
+- Very Dark Violet: hsl(270, 9%, 17%)
+- Dark Grayish Violet: hsl(273, 4%, 51%)
+- Very Light Gray: hsl(0, 0%, 98%) 
+
+
+
+- Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
+- Weights: 400
+
+### Body
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
+
+*/
+ul {
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", serif;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 15%;
+}
+
+nav {
+  display: 100%;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.link {
+  text-decoration: none;
+  color: hsl(273, 4%, 51%);
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.link-outline-violet {
+  border: 2px solid hsl(270, 9%, 17%);
+  padding: 7px 20px;
+  color: hsl(270, 9%, 17%);
+}
+
+.link-outline-violet:hover {
+  border: 2px solid hsl(270, 9%, 17%);
+  background-color: hsl(270, 9%, 17%);
+  padding: 7px 20px;
+  color: hsl(0, 0%, 98%);
+}
+
+.link-outline-white {
+  border: 2px solid hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 98%);
+  padding: 7px 20px;
+}
+
+.link-outline-white:hover {
+  border: 2px solid hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(270, 9%, 17%);
+  padding: 7px 20px;
+}
+
+.showcase-container {
+  background-color: hsl(256, 26%, 20%);
+  max-height: 60vh;
+  margin-bottom: 300px;
+}
+
+.showcase-container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showcase-content {
+  flex-basis: 45%;
+}
+
+.showcase-heading {
+  margin-top: 50px;
+}
+
+.divider {
+  width: 120px;
+  border-top: 1px solid hsl(0, 0%, 98%);
+}
+
+.divider-violet {
+  border-top: 1px solid hsl(273, 4%, 51%);
+}
+
+.showcase-paragraph {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  font-size: 16px;
+}
+
+.showcase-image {
+  flex-basis: 30%;
+  transform: translateY(100px);
+}
+
+.heading {
+  line-height: 1;
+  font-weight: 500;
+}
+
+.light-heading,
+.light-paragraph {
+  color: hsl(0, 0%, 98%);
+}
+
+.violet-heading {
+  color: hsl(270, 9%, 17%);
+}
+
+.violet-paragraph {
+  color: hsl(273, 4%, 51%);
+}
+
+.large-heading {
+  font-size: 55px;
+}
+
+.medium-heading {
+  font-size: 25px;
+}
+
+.features-heading {
+  margin: 50px 0 80px 0;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.features-container h3 {
+  margin: 30px 0 20px 0;
+}
+
+.sub-container {
+  background-color: hsl(256, 26%, 20%);
+  padding: 60px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  margin-top: 200px;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.top-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.bottom-footer {
+  border-top: 1px solid hsla(270, 4%, 41%, 0.342);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.bottom-footer li:nth-of-type(1) {
+  color: hsl(273, 4%, 51%);
+  margin-bottom: 20px;
+}
+
+.bottom-footer li {
+  color: hsl(270, 9%, 17%);
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
